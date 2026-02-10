@@ -48,3 +48,5 @@ pipeline:
                         level: info
                     auth:
                       access_token: <+secrets.getValue("SEMGREP_APP_TOKEN")>
+  delegateSelectors:
+    - kubernetes-delegate10
