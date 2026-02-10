@@ -48,7 +48,7 @@ pipeline:
                         level: info
                     resources:
                       limits:
-                        memory: 1.6G
-                        cpu: 800m
+                        memory: 1.9G
+                        cpu: 900m
                     auth:
                       access_token: <+secrets.getValue("semgrep_token")>
