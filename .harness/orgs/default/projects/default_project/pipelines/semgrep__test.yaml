@@ -9,6 +9,7 @@ pipeline:
       codebase:
         connectorRef: github_semgrep_connector
         build: <+input>
+        sparseCheckout: []
   stages:
     - stage:
         name: security_test
