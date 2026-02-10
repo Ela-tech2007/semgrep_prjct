@@ -46,7 +46,3 @@ pipeline:
                     advanced:
                       log:
                         level: info
-                    resources:
-                      limits:
-                        memory: 1.6G
-                        cpu: 800m
