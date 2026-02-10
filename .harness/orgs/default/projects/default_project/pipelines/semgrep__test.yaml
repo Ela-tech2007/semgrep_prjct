@@ -47,4 +47,4 @@ pipeline:
                       log:
                         level: info
                     auth:
-                      access_token: <+secrets.getValue("SEMGREP_APP_TOKEN")>
+                      access_token: <+secrets.getValue("semgrep_token")>
