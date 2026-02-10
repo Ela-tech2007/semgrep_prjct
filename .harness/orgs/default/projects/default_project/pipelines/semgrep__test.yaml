@@ -26,8 +26,8 @@ pipeline:
           infrastructure:
             type: KubernetesDirect
             spec:
-              connectorRef: mydevCluster
-              namespace: harness-migrate
+              connectorRef: dev_cluster
+              namespace: harness-delegate-ng
               automountServiceAccountToken: true
               nodeSelector: {}
               os: Linux
